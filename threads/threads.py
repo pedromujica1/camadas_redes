@@ -16,10 +16,10 @@ class Contador(Thread):
             sleep(self.segundos)
         print(f'Thread {self.nome}')
     
-Contador(5,3, 'Peter Parker').start()
-Contador(10,2, 'Renato').start()
-Contador(15,1, 'Caetano').start()
+Contador(5,3,'James Bond').start()
+Contador(10,2, 'Tom Cruise').start()
+Contador(15,1, 'Peter Parker').start()
 
-print('Aguardando threads terminarem')
-sleep(15)
-print('Programa finalizado')
+#print('Aguardando threads terminarem')
+#sleep(15)
+#print('Programa finalizado')
